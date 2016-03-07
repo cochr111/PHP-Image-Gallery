@@ -6,6 +6,7 @@ Languages Used:
 
 HTML, CSS, jQuery, PHP
 
+Your Webroot folder should contain a folder entitled "images" for the script to work. You can edit this on the index page, OR edit the php code separately.
 
 
 Made With
@@ -18,4 +19,4 @@ https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
 
 AND
 
-Custom CSS
+Custom CSS - Small, and could be included in the head of the document if you wish.
