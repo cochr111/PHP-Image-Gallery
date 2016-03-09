@@ -27,3 +27,6 @@ http://startbootstrap.com/template-overviews/thumbnail-gallery/
 BUT,
 
 The PHP is custom and its original conception can be found at http://www.techrepublic.com/article/create-a-dynamic-photo-gallery-with-php-in-three-steps/5873251/
+
+
+The entire project plus sample images and thumbnails is contained within the simple_php_gallery_bootstrap_3.3.6 file and is available above for download
