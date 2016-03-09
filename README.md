@@ -6,7 +6,7 @@ Languages Used:
 
 HTML, CSS, jQuery, PHP
 
-Your Webroot folder should contain a folder entitled "images" where you will place your thumbnail version of the images in 400pxH X 300pxW for the script to work. In that SAME image folder, create another and change the php variable "dir2" (in the php) to the path to that folder you created INSIDE the images folder. Doing this makes the <a> tags in the PHP link to the full size images. You can edit this on the index page, OR edit the php code separately, and the notes in the code also point this out.
+Your Webroot folder should contain a folder entitled "images" where you will place your thumbnail version of the images in 400pxH X 300pxW for the script to work. In that SAME image folder, create another and change the php variable "dir2" (in the php) to the path to that folder you created INSIDE the images folder. Doing this makes the <a> tags in the PHP link to the full size images. You can edit this on the index page, OR edit the php code separately, and the notes in the code also point this out. JUST MAKE SURE THE FILES IN EACH FOLDER HAVE THE SAME NAME(S).
 
 
 Made With
@@ -28,5 +28,3 @@ BUT,
 
 The PHP is custom and its original conception can be found at http://www.techrepublic.com/article/create-a-dynamic-photo-gallery-with-php-in-three-steps/5873251/
 
-
-The entire project plus sample images and thumbnails is contained within the simple_php_gallery_bootstrap_3.3.6 file and is available above for download
