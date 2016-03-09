@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -12,14 +12,14 @@
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="http://flipsyd.dyndns-web.com:81/contact/final_project/css/thumbnail-gallery.css" rel="stylesheet">
 </head>
 <body>
  <!-- Start Simple Navigation -->
  <!--Here, we create a nav bar using the built in css in bootstrap. We set it to navbar-inverse to make it black, and fix it to the top with navbar-fixed-top -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<!--Here, we create a container for the NAVIGATION--> 
-        <div class="container">
+        <div class="container-fluid">
             <!--Here, we are creating a button that will appear upon window resize again, using bootstraps built in functionality. Thus, that is why the id of #bs-example-navbar-collapse-1 is used on a button.  -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -65,6 +65,8 @@
 <?php
 /*Here, we create a variable that is a string that we will use as the name of the directory that holds the photos*/
 $dir = "images";
+/*You need to create another variable that will be the directory that the <a> tags will link to. Thus, you will have 2 "image folders" One for your 400wX300h thumbnails and another in this case called "movies" that contains the large images*/
+$dir2 = "images/movies";
 
 
 /*Here, we tell PHP:
@@ -97,7 +99,7 @@ if (is_dir($dir)) {
             if (preg_match("/.jpg/", $file)) {
 				echo "
 				<div class=\"col-lg-3 col-md-4 col-xs-6 thumb\">
-                <a class=\"thumbnail\" href=\"$dir/$file\" target=\"_blank\">
+                <a class=\"thumbnail\" href=\"$dir2/$file\" target=\"_blank\">
                     <img class=\"img-responsive\" src=\"$dir/$file\" title =\"This is the title of $file\"alt=\"This is a photo of $file\">
                 </a>
 				</div>
