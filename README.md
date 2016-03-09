@@ -1,6 +1,6 @@
 # PHP-Image-Gallery
 
-This code will allow users to create an image gallery on their website and upload images by simply dragging them into the root image folder in their Webroot folder. The developer will have to create additional 400X300px images in a separate folder as well. Details are below. The Gallery will resize for mobile deployment. 
+This code will allow users to create an image gallery on their website and upload images by simply dragging them into the root image folder in their Webroot folder. The developer will also have to create additional 400X300px images in a separate folder. Details are below. The Gallery will resize for mobile deployment. 
 
 Languages Used:
 
