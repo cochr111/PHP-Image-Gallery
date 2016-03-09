@@ -19,7 +19,7 @@ If it isn't, halt and catch fire.
 When coding the div within PHP there are also some considerations to be made.
 
 <div class=\"col-lg-3 col-md-4 col-xs-6 thumb\">
-<a class=\"thumbnail\" href=\"$dir/$file\" target=\"_blank\">
+<a class=\"thumbnail\" href=\"$dir2/$file\" target=\"_blank\">
 <img class=\"img-responsive\" src=\"$dir/$file\" title =\"This is the title of the picture\"alt=\"This is the alt text\">
 </a>
 </div>
